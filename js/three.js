@@ -5,9 +5,6 @@ let renderer = null,
   cube = null;
 
 
-
-
-
 function createScene(canvas) {
     // Create the Three.js renderer and attach it to our canvas
     renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true });
