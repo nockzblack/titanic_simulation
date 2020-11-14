@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/nockzblack/titanic_simulation/issues"
   },
-  "homepage": "https://github.com/nockzblack/titanic_simulation#readme"
+  "homepage": "https://github.com/nockzblack/titanic_simulation#readme",
+  "dependencies": {
+    "three": "^0.122.0"
+  }
 }
