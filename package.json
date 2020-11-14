@@ -1,0 +1,24 @@
+{
+  "name": "titanic_simulation",
+  "version": "1.0.0",
+  "description": "Project made for \"Metodos Cuantitativos y Simulacion\" class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nockzblack/titanic_simulation.git"
+  },
+  "keywords": [
+    "titanic",
+    "simulation",
+    "three.js"
+  ],
+  "author": "Fernando Benavides, Alejandro Leyva, Juan Cazarez",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nockzblack/titanic_simulation/issues"
+  },
+  "homepage": "https://github.com/nockzblack/titanic_simulation#readme"
+}
