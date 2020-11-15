@@ -1,5 +1,7 @@
 import _ from 'lodash';
 import * as THREE from 'three';
+import { Water } from 'three/examples/jsm/objects/Water.js';
+import { Sky } from 'three/examples/jsm/objects/Sky.js';
 
 let renderer = null,
   scene = null,
@@ -9,6 +11,13 @@ let renderer = null,
 
 
 let water = null;
+let sun = null;
+let pmremGenerator = null;
+let sky = null;
+const parameters = {
+  inclination: 0.49,
+  azimuth: 0.205
+};
 
 
 function createScene(canvas) {
@@ -37,10 +46,12 @@ function createScene(canvas) {
   cube = new THREE.Mesh(geometry, material);
   scene.add(cube);
 
-  //sun = new THREE.Vector3();
+  sun = new THREE.Vector3();
+  pmremGenerator = new THREE.PMREMGenerator(renderer);
 
-  //initWater();
-
+  initWater();
+  initSkybox();
+  updateSun();
 
 }
 
@@ -54,7 +65,7 @@ function initWater() {
     {
       textureWidth: 512,
       textureHeight: 512,
-      waterNormals: new THREE.TextureLoader().load('textures/waternormals.jpg', function (texture) {
+      waterNormals: new THREE.TextureLoader().load('./textures/waternormals.jpg', function (texture) {
 
         texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
 
@@ -75,7 +86,35 @@ function initWater() {
 
 
 // Skybox
-function initSkybox(params) {
+function initSkybox() {
+  sky = new Sky();
+
+  sky.scale.setScalar(10000);
+  scene.add(sky);
+
+
+  const skyUniforms = sky.material.uniforms;
+
+  skyUniforms['turbidity'].value = 10;
+  skyUniforms['rayleigh'].value = 2;
+  skyUniforms['mieCoefficient'].value = 0.005;
+  skyUniforms['mieDirectionalG'].value = 0.8;
+}
+
+function updateSun() {
+
+
+  const theta = Math.PI * (parameters.inclination - 0.5);
+  const phi = 2 * Math.PI * (parameters.azimuth - 0.5);
+
+  sun.x = Math.cos(phi);
+  sun.y = Math.sin(phi) * Math.sin(theta);
+  sun.z = Math.sin(phi) * Math.cos(theta);
+
+  sky.material.uniforms['sunPosition'].value.copy(sun);
+  water.material.uniforms['sunDirection'].value.copy(sun).normalize();
+
+  scene.environment = pmremGenerator.fromScene(sky).texture;
 
 }
 
@@ -83,13 +122,11 @@ function initSkybox(params) {
 
 function animate() {
   requestAnimationFrame(animate);
-  cube.rotation.x += 0.01;
-  cube.rotation.y += 0.01;
   renderer.render(scene, camera);
 }
 
 
-function init() {
+function load() {
   // when the dom is ready start graphics
   $(document).ready(function () {
     let canvas = document.getElementById("webglcanvas");
@@ -100,5 +137,5 @@ function init() {
   });
 }
 
-init();
+load();
 

@@ -4,29 +4,13 @@ import Stats from './jsm/libs/stats.module.js';
 
 import { GUI } from './jsm/libs/dat.gui.module.js';
 import { OrbitControls } from './jsm/controls/OrbitControls.js';
-import { Water } from './jsm/objects/Water.js';
+
 import { Sky } from './jsm/objects/Sky.js';
 
 let container, stats;
 let camera, scene, renderer;
 let controls, water, sun, mesh;
 
-
-/*
-  <script type="module">
-      import * as THREE from "https://unpkg.com/three@0.122.0/build/three.js";
-      import * as Water from "https://unpkg.com/three@0.122.0/examples/jsm/objects/Water.js";
-
-      // when the dom is ready start graphics
-      $(document).ready(function () {
-        let canvas = document.getElementById("webglcanvas");
-        // firts create the scene
-        createScene(canvas);
-        // then the run loop
-        animate();
-      });
-    </script>
-*/
 
 init();
 animate();
@@ -53,45 +37,11 @@ function init() {
 
     sun = new THREE.Vector3();
 
-    // Water
 
     // Skybox
 
-    const sky = new Sky();
-    sky.scale.setScalar(10000);
-    scene.add(sky);
 
-    const skyUniforms = sky.material.uniforms;
 
-    skyUniforms['turbidity'].value = 10;
-    skyUniforms['rayleigh'].value = 2;
-    skyUniforms['mieCoefficient'].value = 0.005;
-    skyUniforms['mieDirectionalG'].value = 0.8;
-
-    const parameters = {
-        inclination: 0.49,
-        azimuth: 0.205
-    };
-
-    const pmremGenerator = new THREE.PMREMGenerator(renderer);
-
-    function updateSun() {
-
-        const theta = Math.PI * (parameters.inclination - 0.5);
-        const phi = 2 * Math.PI * (parameters.azimuth - 0.5);
-
-        sun.x = Math.cos(phi);
-        sun.y = Math.sin(phi) * Math.sin(theta);
-        sun.z = Math.sin(phi) * Math.cos(theta);
-
-        sky.material.uniforms['sunPosition'].value.copy(sun);
-        water.material.uniforms['sunDirection'].value.copy(sun).normalize();
-
-        scene.environment = pmremGenerator.fromScene(sky).texture;
-
-    }
-
-    updateSun();
 
     //
 
