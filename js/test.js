@@ -1,90 +1,126 @@
-import * as THREE from '../build/three.module.js';
 
-import Stats from './jsm/libs/stats.module.js';
+import * as THREE from 'three';
 
-import { GUI } from './jsm/libs/dat.gui.module.js';
-import { OrbitControls } from './jsm/controls/OrbitControls.js';
+import Stats from 'three/examples/jsm/libs/stats.module.js';
 
-import { Sky } from './jsm/objects/Sky.js';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import { VRMLLoader } from 'three/examples/jsm/loaders/VRMLLoader.js';
+import { GUI } from 'three/examples/jsm/libs/dat.gui.module.js';
 
-let container, stats;
-let camera, scene, renderer;
-let controls, water, sun, mesh;
+let camera, scene, renderer, stats, controls, loader, container;
+
+const params = {
+    asset: 'house'
+};
+
+const assets = [
+    'creaseAngle',
+    'crystal',
+    'house',
+    'elevationGrid1',
+    'elevationGrid2',
+    'extrusion1',
+    'extrusion2',
+    'extrusion3',
+    'lines',
+    'meshWithLines',
+    'meshWithTexture',
+    'pixelTexture',
+    'points',
+];
+
+let vrmlScene;
 
 
-init();
-animate();
+load();
+
+function load() {
+    // when the dom is ready start graphics
+    $(document).ready(function () {
+        container = document.getElementById('container');
+        init();
+        animate();
+    });
+}
 
 function init() {
 
-    container = document.getElementById('container');
+    camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 1e10);
+    camera.position.set(- 10, 5, 10);
 
-    //
+    scene = new THREE.Scene();
+    scene.add(camera);
+
+    // light
+
+    const hemiLight = new THREE.HemisphereLight(0xffffff, 0x000000, 1);
+    scene.add(hemiLight);
+
+    const dirLight = new THREE.DirectionalLight(0xffffff, 0.5);
+    dirLight.position.set(200, 200, 200);
+    scene.add(dirLight);
+
+    loader = new VRMLLoader();
+    loadAsset(params.asset);
+
+    // renderer
+    container = document.getElementById('container');
 
     renderer = new THREE.WebGLRenderer();
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize(window.innerWidth, window.innerHeight);
     container.appendChild(renderer.domElement);
 
-    //
-
-    scene = new THREE.Scene();
-
-    camera = new THREE.PerspectiveCamera(55, window.innerWidth / window.innerHeight, 1, 20000);
-    camera.position.set(30, 30, 100);
-
-    //
-
-    sun = new THREE.Vector3();
-
-
-    // Skybox
-
-
-
-
-    //
-
-    const geometry = new THREE.BoxBufferGeometry(30, 30, 30);
-    const material = new THREE.MeshStandardMaterial({ roughness: 0 });
-
-    mesh = new THREE.Mesh(geometry, material);
-    scene.add(mesh);
-
-    //
+    // controls
 
     controls = new OrbitControls(camera, renderer.domElement);
-    controls.maxPolarAngle = Math.PI * 0.495;
-    controls.target.set(0, 10, 0);
-    controls.minDistance = 40.0;
-    controls.maxDistance = 200.0;
-    controls.update();
+    controls.minDistance = 1;
+    controls.maxDistance = 200;
+    controls.enableDamping = true;
 
     //
 
     stats = new Stats();
-    container.appendChild(stats.dom);
-
-    // GUI
-
-    const gui = new GUI();
-
-    const folderSky = gui.addFolder('Sky');
-    folderSky.add(parameters, 'inclination', 0, 0.5, 0.0001).onChange(updateSun);
-    folderSky.add(parameters, 'azimuth', 0, 1, 0.0001).onChange(updateSun);
-    folderSky.open();
-
-    const waterUniforms = water.material.uniforms;
-
-    const folderWater = gui.addFolder('Water');
-    folderWater.add(waterUniforms.distortionScale, 'value', 0, 8, 0.1).name('distortionScale');
-    folderWater.add(waterUniforms.size, 'value', 0.1, 10, 0.1).name('size');
-    folderWater.add(waterUniforms.alpha, 'value', 0.9, 1, .001).name('alpha');
-    folderWater.open();
+    document.body.appendChild(stats.dom);
 
     //
 
     window.addEventListener('resize', onWindowResize, false);
+
+    //
+
+    const gui = new GUI({ width: 300 });
+    gui.add(params, 'asset', assets).onChange(function (value) {
+
+        if (vrmlScene) {
+
+            vrmlScene.traverse(function (object) {
+
+                if (object.material) object.material.dispose();
+                if (object.material && object.material.map) object.material.map.dispose();
+                if (object.geometry) object.geometry.dispose();
+
+            });
+
+            scene.remove(vrmlScene);
+
+        }
+
+        loadAsset(value);
+
+    });
+
+}
+
+function loadAsset(asset) {
+
+    loader.load(asset + '.wrl', function (object) {
+
+        vrmlScene = object;
+        scene.add(object);
+        controls.reset();
+
+    });
 
 }
 
@@ -100,21 +136,11 @@ function onWindowResize() {
 function animate() {
 
     requestAnimationFrame(animate);
-    render();
-    stats.update();
 
-}
-
-function render() {
-
-    const time = performance.now() * 0.001;
-
-    mesh.position.y = Math.sin(time) * 20 + 5;
-    mesh.rotation.x = time * 0.5;
-    mesh.rotation.z = time * 0.51;
-
-    water.material.uniforms['time'].value += 1.0 / 60.0;
+    controls.update(); // to support damping
 
     renderer.render(scene, camera);
+
+    stats.update();
 
 }

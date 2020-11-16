@@ -1,7 +1,10 @@
 import _ from 'lodash';
+
 import * as THREE from 'three';
 import { Water } from 'three/examples/jsm/objects/Water.js';
 import { Sky } from 'three/examples/jsm/objects/Sky.js';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import Stats from 'three/examples/jsm/libs/stats.module.js';
 
 let renderer = null,
   scene = null,
@@ -14,24 +17,34 @@ let water = null;
 let sun = null;
 let pmremGenerator = null;
 let sky = null;
+let controls;
+
+let container, stats;
+
+
 const parameters = {
-  inclination: 0.49,
-  azimuth: 0.205
+  inclination: 0.3717,
+  azimuth: 0.0486
 };
 
 
-function createScene(canvas) {
+
+function createScene() {
+
   // Create the Three.js renderer and attach it to our canvas
-  renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true });
+  renderer = new THREE.WebGLRenderer();
+  renderer.setPixelRatio(window.devicePixelRatio);
   // Set the viewport size
-  renderer.setSize(canvas.width, canvas.height);
+  renderer.setSize(window.innerWidth, window.innerHeight);
+  container.appendChild(renderer.domElement);
+
   // Create a new Three.js scene
   scene = new THREE.Scene();
 
   // Adding the camera 
-  let aspectRatio = canvas.width / canvas.height;
-  camera = new THREE.PerspectiveCamera(60, aspectRatio, 1, 1000);
-  camera.position.set(1, 1, 5);
+  let aspectRatio = window.innerWidth / window.innerHeight;
+  camera = new THREE.PerspectiveCamera(55, aspectRatio, 1, 200000);
+  camera.position.set(30, 30, 100);
   scene.add(camera);
 
   // Adding the light
@@ -44,17 +57,47 @@ function createScene(canvas) {
   const geometry = new THREE.BoxGeometry();
   const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
   cube = new THREE.Mesh(geometry, material);
+  cube.position.set(0, 0, 0);
   scene.add(cube);
 
   sun = new THREE.Vector3();
   pmremGenerator = new THREE.PMREMGenerator(renderer);
 
+  // Adding Stats
+  stats = new Stats();
+  container.appendChild(stats.dom);
+
   initWater();
   initSkybox();
   updateSun();
+  initControls();
+  initCube();
+
+  window.addEventListener('resize', onWindowResize, false);
 
 }
 
+
+// Orbit Controls
+function initControls() {
+  controls = new OrbitControls(camera, renderer.domElement);
+  controls.maxPolarAngle = Math.PI * 0.495;
+  controls.target.set(0, 10, 0);
+  controls.minDistance = 40.0;
+  controls.maxDistance = 2000.0;
+  controls.update();
+}
+
+
+function initCube() {
+  const geometry = new THREE.BoxBufferGeometry(30, 30, 30);
+  const material = new THREE.MeshStandardMaterial({ roughness: 0, color: new THREE.Color('green') });
+
+  cube = new THREE.Mesh(geometry, material);
+  cube.position.set(0, 0, 0);
+  scene.add(cube);
+
+}
 
 // Water
 function initWater() {
@@ -101,9 +144,8 @@ function initSkybox() {
   skyUniforms['mieDirectionalG'].value = 0.8;
 }
 
+// Sun
 function updateSun() {
-
-
   const theta = Math.PI * (parameters.inclination - 0.5);
   const phi = 2 * Math.PI * (parameters.azimuth - 0.5);
 
@@ -119,19 +161,43 @@ function updateSun() {
 }
 
 
+function render() {
+
+  const time = performance.now() * 0.001;
+
+  cube.position.y = Math.sin(time) * 20 + 5;
+  cube.rotation.x = time * 0.5;
+  cube.rotation.z = time * 0.51;
+
+  water.material.uniforms['time'].value += 1.0 / 60.0;
+  renderer.render(scene, camera);
+
+}
 
 function animate() {
   requestAnimationFrame(animate);
-  renderer.render(scene, camera);
+  render();
+  stats.update();
 }
 
+
+
+
+function onWindowResize() {
+
+  camera.aspect = window.innerWidth / window.innerHeight;
+  camera.updateProjectionMatrix();
+
+  renderer.setSize(window.innerWidth, window.innerHeight);
+
+}
 
 function load() {
   // when the dom is ready start graphics
   $(document).ready(function () {
-    let canvas = document.getElementById("webglcanvas");
+    container = document.getElementById('container');
     // firts create the scene
-    createScene(canvas);
+    createScene();
     // then the run loop
     animate();
   });
