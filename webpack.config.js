@@ -7,7 +7,7 @@ module.exports = {
     mode: 'development',
     entry: {
         //index: { import: './js/three.js', dependOn: 'shared' },
-        ambient: './js/three.js',
+        ambient: './js/main.js',
         //shared: 'lodash',
     },
     output: {
