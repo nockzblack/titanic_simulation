@@ -31,6 +31,10 @@ let line;
 let gui, timer;
 let simulation = false;
 
+let age, pclass, sex, label, person;
+
+let points1;
+
 
 const loaderGLTF = new GLTFLoader();
 
@@ -90,24 +94,20 @@ function createScene() {
   loadRoute();
 
   window.addEventListener('resize', onWindowResize, false);
-
-  console.log(surive(12, "male", 3));
-
 }
 
 
 function initGUI() {
   gui = new GUI({ name: 'My GUI' });
-
-  //const folderSky = gui.addFolder('Sky');
-  //folderSky.add(parameters, 'inclination', 0, 0.5, 0.0001);
-  //folderSky.add(parameters, 'azimuth', 0, 1, 0.0001)
-  //folderSky.open();
-
-
   const folderTimer = gui.addFolder('Timer');
   timer = folderTimer.add({ time: 0 }, 'time', 0, 240, 1).name('Seconds:');
   folderTimer.open();
+
+  const folderSimlation = gui.addFolder('Simulation Parameters');
+  age = folderSimlation.add({ age: 22 }, 'age', 10, 60, 1);
+  pclass = folderSimlation.add({ class: 1 }, 'class', 1, 3, 1);
+  sex = folderSimlation.add({ sex: 1 }, 'sex', 1, 2, 1);
+  folderSimlation.open();
 
 
 }
@@ -198,14 +198,46 @@ function updateSun() {
 
 function loadRoute() {
   const material2 = new THREE.LineBasicMaterial({ color: new THREE.Color('green') });
-  const points = [];
-  points.push(new THREE.Vector3(-88, 0, 0));
-  points.push(new THREE.Vector3(82, 0, 0));
-  const geometry2 = new THREE.BufferGeometry().setFromPoints(points);
+  points1 = new THREE.CurvePath();
+  let firstLine = new THREE.LineCurve3(
+    new THREE.Vector3(90, 31, 118),
+    new THREE.Vector3(40, 31, 118) // Punto final
+  );
+
+  let secondLine = new THREE.LineCurve3(
+    new THREE.Vector3(90, 31, 118),
+    new THREE.Vector3(100, 25, 118),
+  );
+
+  let line3 = new THREE.LineCurve3(new THREE.Vector3(100, 25, 118), new THREE.Vector3(112, 25, 118));
+
+  let line4 = new THREE.LineCurve3(new THREE.Vector3(112, 25, 118), new THREE.Vector3(112, 25, 80));
+
+
+  points1.add(firstLine);
+  points1.add(secondLine);
+  points1.add(line3);
+  points1.add(line4);
+
+
+  const geometry2 = new THREE.BufferGeometry().setFromPoints(points1.getPoints());
   line = new THREE.Line(geometry2, material2);
-  line.position.x = 10;
-  line.position.y = 31;
-  line.position.z = 118;
+  //line.position.x = 40;
+  //line.position.y = 31;
+  //line.position.z = 118;
+
+
+
+
+  let personGeometry = new THREE.SphereGeometry(2.5, 20, 20);
+  let basicGeometry = new THREE.MeshBasicMaterial({ color: new THREE.Color('blue') })
+
+  person = new THREE.Mesh(personGeometry, basicGeometry);
+  person.position.x = 40;
+  person.position.y = 31;
+  person.position.z = 118;
+  titanic.add(person);
+
 
 
   let line2 = new THREE.Line(geometry2, material2);
@@ -214,7 +246,7 @@ function loadRoute() {
   line2.position.z = 82;
 
   titanic.add(line);
-  titanic.add(line2);
+  //titanic.add(line2);
 }
 
 
@@ -251,18 +283,29 @@ function loadGLTF() {
   );
 }
 
+let fraction = 0;
 //const delta;
 function render() {
 
   const time = performance.now() * 0.001;
-
-
 
   if (titanic != null && simulation) {
     titanic.position.y -= 0.0025;
 
     timer.setValue(time);
   }
+
+  let newPos = points1.getPoint(fraction);
+  person.position.x = newPos.x;
+  person.position.y = newPos.y;
+  person.position.z = newPos.z;
+
+  fraction += 0.01;
+  if (fraction > 1) {
+    fraction = 0;
+  }
+
+
 
   // cube.position.y = Math.sin(time) * 20 + 5;
   // cube.rotation.x = time * 0.5;
@@ -301,9 +344,22 @@ function load() {
   $(document).ready(function () {
     container = document.getElementById('container');
 
-
     document.getElementById('button-start').addEventListener("click", () => {
       simulation = true;
+
+      let auxAge = age.getValue();
+      let auxClass = pclass.getValue();
+      let sexNumber = sex.getValue();
+      let classStr = "female"
+      if (auxClass == 2) {
+        classStr = "male"
+      }
+
+      let result = surive(auxAge, classStr, sexNumber);
+      console.log(result)
+      document.getElementById('label').innerHTML = result;
+
+
     });
 
 
@@ -318,10 +374,6 @@ load();
 
 
 
-
-//document.getElementById("start").addEventListener("click", function () {
-
-//});
 
 
 function surive(edad, sexo, clase) {

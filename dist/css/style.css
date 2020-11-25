@@ -37,8 +37,9 @@
   display: block;
   text-align: center;
   color: black;
-  top: 94%;
+  top: 92%;
   left: 12%;
-  font-size: x-large;
   font-weight: bold;
+  text-shadow: 1.5px 1.5px #ffffff;
+  font-size: xx-large;
 }
