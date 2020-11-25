@@ -1,0 +1,7131 @@
+
+  [
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "36-39",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "33-36",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "54-57",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 3,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "12-15",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "3-6",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "57-60",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "39-42",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "12-15",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "54-57",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 4,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "30-33",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "15-18",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "6-9",
+      "SibSp": 3,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "36-39",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 3,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "39-42",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "66-69",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "42-45",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "18-21",
+      "SibSp": 2,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "12-15",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "39-42",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "27-30",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "3-6",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 2,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "18-21",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "6-9",
+      "SibSp": 4,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "48-51",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "27-30",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "63-66",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "3-6",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "9-12",
+      "SibSp": 5,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "36-39",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "45-48",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "3-6",
+      "SibSp": 3,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "15-18",
+      "SibSp": 4,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 2,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "15-18",
+      "SibSp": 5,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "15-18",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "33-36",
+      "SibSp": 3,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "15-18",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "21-24",
+      "SibSp": 3,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "45-48",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "57-60",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "69-72",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 2,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "45-48",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "12-15",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "18-21",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "15-18",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "69-72",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 4,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 2,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "54-57",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "12-15",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "45-48",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "45-48",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "27-30",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "15-18",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "9-12",
+      "SibSp": 2,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "42-45",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "51-54",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "21-24",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "54-57",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "39-42",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "51-54",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "15-18",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 8,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "42-45",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "39-42",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "15-18",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 4,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "9-12",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "45-48",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "60-63",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "3-6",
+      "SibSp": 4,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "54-57",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 3,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "48-51",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 8,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "9-12",
+      "SibSp": 4,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 2,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "3-6",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "45-48",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "39-42",
+      "SibSp": 1,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "18-21",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "3-6",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "42-45",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "57-60",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "42-45",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 8,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "45-48",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "15-18",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "39-42",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "30-33",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "42-45",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "15-18",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "51-54",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 3,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "33-36",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "57-60",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "3-6",
+      "SibSp": 4,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "42-45",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "6-9",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "42-45",
+      "SibSp": 2,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "54-57",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "27-30",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "60-63",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "39-42",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "48-51",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "3-6",
+      "SibSp": 4,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "51-54",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "39-42",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "15-18",
+      "SibSp": 4,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "57-60",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "39-42",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "63-66",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "45-48",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "6-9",
+      "SibSp": 4,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "33-36",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "63-66",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "15-18",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "42-45",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "18-21",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "48-51",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 2,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "15-18",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "18-21",
+      "SibSp": 2,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "42-45",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "54-57",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "39-42",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "21-24",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 8,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "36-39",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "60-63",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "36-39",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "30-33",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "15-18",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 2,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "45-48",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "15-18",
+      "SibSp": 2,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "39-42",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "45-48",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "45-48",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 3,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "39-42",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "3-6",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "42-45",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "15-18",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "36-39",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "39-42",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "45-48",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "60-63",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "3-6",
+      "SibSp": 3,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "42-45",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "33-36",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 5,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "36-39",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "15-18",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 2,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "21-24",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "45-48",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "39-42",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "21-24",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "51-54",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "3-6",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 3,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "33-36",
+      "SibSp": 1,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "42-45",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "33-36",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "9-12",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "27-30",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "27-30",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "42-45",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "15-18",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "48-51",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "12-15",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "21-24",
+      "SibSp": 2,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 2,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "63-66",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "45-48",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "3-6",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "12-15",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "3-6",
+      "SibSp": 2,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "51-54",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "48-51",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "63-66",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "48-51",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "48-51",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "45-48",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "48-51",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "54-57",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 2,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "33-36",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "9-12",
+      "SibSp": 5,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "48-51",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "63-66",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 3,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "33-36",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "57-60",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "9-12",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "54-57",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "69-72",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "54-57",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "15-18",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "36-39",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "15-18",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "54-57",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "45-48",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "36-39",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "42-45",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "39-42",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "48-51",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "39-42",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 2,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "15-18",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "6-9",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "45-48",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "36-39",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "9-12",
+      "SibSp": 4,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "9-12",
+      "SibSp": 4,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "48-51",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "63-66",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "18-21",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "6-9",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "15-18",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "60-63",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "48-51",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "39-42",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "36-39",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "39-42",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 2,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "60-63",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "51-54",
+      "SibSp": 2,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "15-18",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "39-42",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "39-42",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "54-57",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "45-48",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "60-63",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "51-54",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "45-48",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "48-51",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "48-51",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 2,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "42-45",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "21-24",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "39-42",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "39-42",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "3-6",
+      "SibSp": 2,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "42-45",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "60-63",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "57-60",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "78-81",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "51-54",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "9-12",
+      "SibSp": 3,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "39-42",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 3,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 2,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "48-51",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "54-57",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 2,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "30-33",
+      "SibSp": 1,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "57-60",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "48-51",
+      "SibSp": 2,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "39-42",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "45-48",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 2,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "42-45",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "39-42",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "69-72",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "42-45",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "12-15",
+      "SibSp": 5,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "60-63",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "12-15",
+      "SibSp": 4,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "15-18",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "3-6",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "60-63",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "51-54",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "42-45",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "48-51",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "42-45",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "18-21",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "39-42",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "45-48",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "42-45",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "48-51",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "51-54",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "36-39",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "6-9",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "15-18",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "48-51",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "30-33",
+      "SibSp": 3,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "9-12",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "48-51",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "21-24",
+      "SibSp": 2,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "69-72",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "15-18",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "3-6",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "6-9",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "48-51",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "39-42",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "36-39",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "15-18",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "51-54",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "48-51",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "57-60",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "54-57",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "3-6",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "42-45",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "12-15",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "15-18",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "6-9",
+      "SibSp": 4,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "45-48",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "15-18",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 8,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "39-42",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "48-51",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "30-33",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "30-33",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "9-12",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "39-42",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "39-42",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "33-36",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "39-42",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "6-9",
+      "SibSp": 4,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "42-45",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "9-12",
+      "SibSp": 3,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "51-54",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "36-39",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 4,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "60-63",
+      "SibSp": 0,
+      "Embarked": "",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "15-18",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "39-42",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "15-18",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "15-18",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "42-45",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 8,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "3-6",
+      "SibSp": 4,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "72-75",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "9-12",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "15-18",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "42-45",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "45-48",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "51-54",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "39-42",
+      "SibSp": 2,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "21-24",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "48-51",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 8,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "42-45",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "27-30",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "3-6",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "45-48",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "45-48",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "27-30",
+      "SibSp": 1,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "15-18",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "0-3",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "54-57",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 2,
+      "Sex": "female",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "33-36",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "21-24",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "39-42",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    },
+    {
+      "Pclass": 2,
+      "Sex": "male",
+      "Age": "27-30",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "female",
+      "Age": "18-21",
+      "SibSp": 0,
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "female",
+      "Age": "0-3",
+      "SibSp": 1,
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "Pclass": 1,
+      "Sex": "male",
+      "Age": "24-27",
+      "SibSp": 0,
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "Pclass": 3,
+      "Sex": "male",
+      "Age": "30-33",
+      "SibSp": 0,
+      "Embarked": "Q",
+      "Survived": 0
+    }
+  ]

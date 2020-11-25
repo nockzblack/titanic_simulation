@@ -1,0 +1,44 @@
+#button-start {
+  position: absolute;
+  font-family: Arial;
+  font-size: large;
+  size: 100px;
+  width: 10%;
+  text-align: left;
+  z-index: 100;
+  display: block;
+  text-align: center;
+  color: black;
+  top: 95%;
+  left: 2%;
+}
+
+#button-reset {
+  position: absolute;
+  font-family: Arial;
+  font-size: large;
+  size: 100px;
+  width: 10%;
+  text-align: center;
+  z-index: 100;
+  display: block;
+  text-align: center;
+  color: black;
+  top: 95%;
+  left: 15%;
+}
+
+#label {
+  position: absolute;
+  font-family: monospace;
+  size: 100px;
+  width: 50%;
+  z-index: 100;
+  display: block;
+  text-align: center;
+  color: black;
+  top: 94%;
+  left: 12%;
+  font-size: x-large;
+  font-weight: bold;
+}
