@@ -33,7 +33,7 @@ let simulation = false;
 
 let age, pclass, sex, label, person;
 
-let points1;
+let points1, result;
 
 
 const loaderGLTF = new GLTFLoader();
@@ -73,7 +73,7 @@ function createScene() {
   const material = new THREE.MeshBasicMaterial({ color: new THREE.Color('red') });
   cube = new THREE.Mesh(geometry, material);
   cube.position.set(0, 0, 0);
-  scene.add(cube);
+  //scene.add(cube);
 
   sun = new THREE.Vector3();
   pmremGenerator = new THREE.PMREMGenerator(renderer);
@@ -100,7 +100,7 @@ function createScene() {
 function initGUI() {
   gui = new GUI({ name: 'My GUI' });
   const folderTimer = gui.addFolder('Timer');
-  timer = folderTimer.add({ time: 0 }, 'time', 0, 240, 1).name('Seconds:');
+  timer = folderTimer.add({ time: 0 }, 'time', 0, 120, 1).name('Seconds:');
   folderTimer.open();
 
   const folderSimlation = gui.addFolder('Simulation Parameters');
@@ -199,25 +199,25 @@ function updateSun() {
 function loadRoute() {
   const material2 = new THREE.LineBasicMaterial({ color: new THREE.Color('green') });
   points1 = new THREE.CurvePath();
-  let firstLine = new THREE.LineCurve3(
+  let line1 = new THREE.LineCurve3(
     new THREE.Vector3(90, 31, 118),
     new THREE.Vector3(40, 31, 118) // Punto final
   );
 
-  let secondLine = new THREE.LineCurve3(
-    new THREE.Vector3(90, 31, 118),
-    new THREE.Vector3(100, 25, 118),
-  );
+  let line2 = new THREE.LineCurve3(new THREE.Vector3(100, 25, 118), new THREE.Vector3(90, 31, 118));
 
-  let line3 = new THREE.LineCurve3(new THREE.Vector3(100, 25, 118), new THREE.Vector3(112, 25, 118));
-
-  let line4 = new THREE.LineCurve3(new THREE.Vector3(112, 25, 118), new THREE.Vector3(112, 25, 80));
+  let line3 = new THREE.LineCurve3(new THREE.Vector3(112, 25, 118), new THREE.Vector3(100, 25, 118));
+  let line4 = new THREE.LineCurve3(new THREE.Vector3(112, 25, 83), new THREE.Vector3(112, 25, 118));
+  let line5 = new THREE.LineCurve3(new THREE.Vector3(0, 25, 83), new THREE.Vector3(112, 25, 83));
+  let line6 = new THREE.LineCurve3(new THREE.Vector3(0, 25, 90), new THREE.Vector3(0, 25, 83));
 
 
-  points1.add(firstLine);
-  points1.add(secondLine);
-  points1.add(line3);
+  points1.add(line6);
+  points1.add(line5);
   points1.add(line4);
+  points1.add(line3);
+  points1.add(line2);
+  points1.add(line1);
 
 
   const geometry2 = new THREE.BufferGeometry().setFromPoints(points1.getPoints());
@@ -227,26 +227,26 @@ function loadRoute() {
   //line.position.z = 118;
 
 
-
-
-  let personGeometry = new THREE.SphereGeometry(2.5, 20, 20);
-  let basicGeometry = new THREE.MeshBasicMaterial({ color: new THREE.Color('blue') })
-
-  person = new THREE.Mesh(personGeometry, basicGeometry);
-  person.position.x = 40;
-  person.position.y = 31;
-  person.position.z = 118;
-  titanic.add(person);
-
-
-
-  let line2 = new THREE.Line(geometry2, material2);
-  line2.position.x = 10;
-  line2.position.y = 31;
-  line2.position.z = 82;
+  let line2A = new THREE.Line(geometry2, material2);
+  line2A.position.x = 10;
+  line2A.position.y = 31;
+  line2A.position.z = 82;
 
   titanic.add(line);
   //titanic.add(line2);
+}
+
+
+
+function loadPeson(color) {
+  let personGeometry = new THREE.SphereGeometry(3.5, 20, 20);
+  let basicGeometry = new THREE.MeshBasicMaterial({ color: new THREE.Color(color) })
+
+  person = new THREE.Mesh(personGeometry, basicGeometry);
+  person.position.x = 0;
+  person.position.y = 25;
+  person.position.z = 83;
+  titanic.add(person);
 }
 
 
@@ -284,27 +284,42 @@ function loadGLTF() {
 }
 
 let fraction = 0;
-//const delta;
+let delta;
+let startTime;
 function render() {
 
   const time = performance.now() * 0.001;
 
+  if (!simulation) {
+    startTime = time;
+  }
+
   if (titanic != null && simulation) {
-    titanic.position.y -= 0.0025;
+    titanic.position.y -= 0.0125;
 
-    timer.setValue(time);
+    //console.log(startTime);
+    //console.log(time);
+    timer.setValue(time - startTime);
+
+    let newPos = points1.getPoint(fraction);
+
+    person.position.x = newPos.x;
+    person.position.y = newPos.y;
+    person.position.z = newPos.z;
+
+    fraction += 0.00075;
+    if (fraction > 1) {
+      document.getElementById('label').innerHTML = result;
+      simulation = false;
+    }
+
+    if (titanic.position.y < -31) {
+      simulation = false;
+      document.getElementById('label').innerHTML = "Desafortunadamente no sobrevivió";
+    }
+
+    //console.log(titanic.position.y);
   }
-
-  let newPos = points1.getPoint(fraction);
-  person.position.x = newPos.x;
-  person.position.y = newPos.y;
-  person.position.z = newPos.z;
-
-  fraction += 0.01;
-  if (fraction > 1) {
-    fraction = 0;
-  }
-
 
 
   // cube.position.y = Math.sin(time) * 20 + 5;
@@ -318,9 +333,12 @@ function render() {
 
 
 // 2 h 40 min = 160 min = 9,600 s
+// 60 min = 3600 s
+// 3600 / 80 = 45s to sin
 // 10x => 960
-// 40x -> 240
-// 75s to sink
+// 40x -> 240 
+// 80x -> 120 to sing
+// 100x -> 96 to sink
 
 function animate() {
   requestAnimationFrame(animate);
@@ -345,21 +363,26 @@ function load() {
     container = document.getElementById('container');
 
     document.getElementById('button-start').addEventListener("click", () => {
-      simulation = true;
+      document.getElementById('label').innerHTML = "¿Sobrevivirá?";
 
       let auxAge = age.getValue();
       let auxClass = pclass.getValue();
       let sexNumber = sex.getValue();
-      let classStr = "female"
-      if (auxClass == 2) {
-        classStr = "male"
+      let classStr = "male"
+      let color = "blue"
+      console.log(sexNumber)
+      if (sexNumber == 2) {
+        classStr = "female"
+        color = "pink"
       }
 
-      let result = surive(auxAge, classStr, sexNumber);
-      console.log(result)
-      document.getElementById('label').innerHTML = result;
 
 
+      result = surive(auxAge, classStr, sexNumber);
+      loadPeson(color);
+      //console.log(result)
+
+      simulation = true;
     });
 
 
